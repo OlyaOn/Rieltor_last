@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'a_MachinaOrtoSht';
+    src: url('AMachinaOrtoSht.eot');
+    src: url('AMachinaOrtoSht.eot?#iefix') format('embedded-opentype'),
+        url('AMachinaOrtoSht.woff2') format('woff2'),
+        url('AMachinaOrtoSht.woff') format('woff'),
+        url('AMachinaOrtoSht.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
