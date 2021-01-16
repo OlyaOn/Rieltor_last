@@ -1,0 +1,16 @@
+.button{
+    &_btn{
+    width: 430px;
+    height: 85px;
+    background-color: $main_color;
+    font-family: Akrobat;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 0.81;
+    text-align: center;
+    color: #ffffff;
+    &:hover{
+        background-color: #0e2b3d;
+    }
+}
+}

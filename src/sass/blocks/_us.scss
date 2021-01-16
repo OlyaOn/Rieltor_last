@@ -1,0 +1,51 @@
+.us{
+  padding: 12px 0;
+    &_back{
+        width: 374px;
+        height: 430px;
+        background: url(../../img/icons/polygon.jpg) center (center / cover) no-repeat;
+        position: relative;
+        
+    }
+&_text{
+    position: absolute;
+    top: 68px;
+    left: 50%;
+    transform: translateX(calc(-50% - 60px));
+    width: 350px;
+    text-align: center;
+    
+}
+&_info{
+    position: relative;
+    h1{
+        font-family: Akrobat;
+        font-size: 43.5px;
+        font-weight: 800;
+        line-height: 0.67;
+        text-align: center;
+        color: #20191b;
+        margin-top: 24px;
+        text-transform: uppercase;
+        .us_header{
+            font-size: 31px;   
+        }
+    }
+    h2{
+        font-size: 32px;
+        font-stretch: condensed;
+        line-height: 0.81;
+        text-align: center;
+        color: #20191b;
+        margin-top: 13px;
+    }
+}
+}
+h1.us_header{
+    font-size: 31px;
+}
+h2.us_subheader{
+    font-size: 21px;
+    font-stretch: condensed;
+    line-height: 1.38;
+}

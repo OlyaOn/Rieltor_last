@@ -1,0 +1,15 @@
+.consultation{
+    height: 273px;
+    background: rgba(235, 233, 221, 1.0);
+    &_title{
+        font-family: Akrobat;
+        font-size: 41.5px;
+        font-weight: 900;
+        line-height: 0.81;
+        color: #0f2f43;
+        text-transform: uppercase;
+        padding-top: 64px;
+        text-align: center;
+    }
+}
+

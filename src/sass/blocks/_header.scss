@@ -1,0 +1,187 @@
+/* header{
+    display: flex;
+} */
+.subheader{
+    margin: 15px 0;
+    .col-10{
+        height: 44px;
+    }
+    &_logo{
+        position: absolute;
+        background:#ffffff;
+        
+        img{
+            width: 188px;
+            height: 171px;}
+    }
+/*     &_info{
+        display: flex;
+        align-items: center;
+        height: 44px;
+    } */
+    &_official{
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1;
+        text-align: left;
+        color: #20191b;
+        margin-left: -20px;
+        
+    }
+    &_addr{
+        display: flex;
+        align-items: center;
+
+    } 
+    &_address{
+        font-size: 21px;
+        font-weight: bold;
+        line-height: 1;
+        text-align: left;
+        color: #20191b;
+        margin-left: 11px;
+            }
+   &_tel{
+        display: flex;
+        align-items: center;
+        margin-left: 29px;
+    }
+/*     &_call{
+        width: 230px;
+        height: 44px;
+    } */
+    &_phone{
+        font-size: 23px;
+        font-weight: bold;
+        line-height: 0.87;
+        text-align: left;
+        color: #20191b;
+        &:hover{
+            color: #2c2326;
+            text-decoration: none;
+        }
+    }
+    &_phinfo{
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 0.89;
+        text-align: left;
+        color: #20191b;
+    }
+
+
+}
+
+.hamburger{
+		display: block;
+		position: absolute;
+		left: 11px;
+		top: 9px;
+		/* transform: translateX(-50%); */
+		width: 54px;
+        height: 14px ;/** без высоты гамбургер работает плохо **/
+		span{
+			display: block;
+			height: 4px;
+			background-color: $main_color;
+			margin-top: 4px;
+            transition: 0.5s all;
+            border-radius: 6px;
+        }
+		&_active{
+			span{
+				/* margin-top: -4px; */
+				&:nth-child(1){
+                    transform: translateY(11px) rotate(-45deg);
+                }
+				&:nth-child(2){
+					display: none;}
+				&:nth-child(3){
+                    transform: translateY(4px) rotate(45deg);
+                }
+                }
+                }
+                &_name{
+                    margin-top: 6px;
+                    font-family: Akrobat;
+                    font-size: 22.5px;
+                    font-weight: 900;
+                    line-height: 0.8;
+                    text-align: left;
+                    color: $main_color;
+                    &_active{
+                        display: none;
+                    }
+                }
+            }
+
+.menu{
+    width: 374px;
+    height: 228px;
+    position: fixed;
+    flex-direction: column; /** отображение по-вертикали **/
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    margin-top: 50px;
+    padding-left: 0px;
+    
+   /*  list-style-image: url('../../img/icons/point.png');
+    list-style-position: inside; */ /* */
+
+    /* list-style-type: disc;  */
+    /* list-style-position: inside;
+    color:#ffffff; */
+
+    /* 
+    left: -100%;
+    width: 50%;
+    height: 100vh; */
+    
+    background-color: rgba(15, 47, 67, .9);
+    transition: 0.6s all;
+    &_active{
+    list-style-position: inside;
+    list-style-image: url("../../img/icons/point.png");}
+
+/*     list-style-image: url("../../img/icons/point.png") /* 0 50% no-repeat */;
+    /* list-style-type: none;
+    padding-left: 12px; */
+    /* list-style-position: inside; */
+
+   
+   
+
+&_active{
+    left: 0;
+    position: absolute;
+    z-index: 1;
+  } 
+&_item{
+    height: 57px;
+    padding: 15px 0 15px 45px;
+    border-bottom: 2px solid #ffffff;
+}
+
+  &_link{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 0.87;
+    text-align: right;
+    color: #ffffff;
+}
+}
+/* li{
+    background: url("../../img/icons/point.png") 0 50% no-repeat;
+    list-style-type: none;
+    padding-left: 12px;
+    list-style-position: inside;
+} */
+
+    
+
+
+
+
+

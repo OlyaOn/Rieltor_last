@@ -1,0 +1,22 @@
+.promo{
+min-height: 680px;
+background: url(../../img/bg1.jpg) center (center / cover) no-repeat;
+padding: 174px 0 0 0;
+&_header{
+    width: 500px;
+    height: 71px;
+    font-family: Akrobat;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 0.81;
+    text-align: left;
+    color: #0f2f43;
+    margin: 0;
+}
+&_subheader{
+    width: 500px;
+    height: 143px;
+    background: url(../../img/icons/inscription.png) no-repeat;
+}
+
+}
