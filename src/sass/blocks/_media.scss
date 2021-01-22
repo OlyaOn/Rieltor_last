@@ -1,5 +1,1022 @@
-@media (max-width: 1200px) {
+/* @media screen and (orientation: portrait) {
+    img.ri { max-width: 90%; }
+  }
+  @media screen and (orientation: landscape) {
+    img.ri { max-height: 90%; }
+  }
+ */
+
+/* @media (max-width: 1950px) {.can{background: url(../../img/kosmos-lg.jpg);}} */
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1140px;
+        padding-left: 40px;
+        }
+        
+       /*  .can{background: url(../../img/kosmos-lx.jpg);} */
+        nav {
+            margin-left: -4.5em;}
+
+        .hamburger {
+            
+        &_name {
+            font-size: 18px;
+        text-align: center;}}
+        .subheader_address {
+            font-size: 18px;}
+    /* .subheader{
+
+    &_logo{
+        width: 85%;
+        img{
+            width: 90%;
+            height: 90%;
+        }
+    }
+} */
+.subheader_official{
+    display: none;
+    &_lg{
+    display: block;
+    font-size: 21px;
+        font-weight: bold;
+        line-height: 1.2;
+        text-align: left;
+        color: #20191b;
 }
+}
+.subheader_logo {
+    width: 165px};
+.can{
+    &_subheader{
+       display: none;
+        &_lg{
+            display: block;
+            /* height: 46px; */
+            font-family: Akrobat;
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 1;
+            text-align: center;
+            color: #303030;
+            text-transform: uppercase;
+            margin-top: 20px;
+        }
+    }
+}
+.question{
+    h1.main {
+        font-size: 25px;
+        text-align: center;
+}
+h2.main{
+    font-size: 22px;
+    text-align: center;
+
+}
+&_icon{
+    top: -20px;
+    left: 0px;
+    
+}  
+}
+.feed-form input{
+    width:270px;
+}
+.button_consultation{
+    width: 270px;
+}
+.recommend{
+    &_text{
+    h1{
+        font-size: 52px;}
+        h2{
+            font-size: 80px;
+        }
+    }
+}
+
+.footer{
+&_official {
+    font-size: 20px;
+    width:400px;}
+
+
+    &_contacts{
+        font-size: 20px;
+        width:400px;
+
+        a{
+            padding-right: 16px;
+            &:last-child{
+            padding-left: 16px;
+            }}
+}
+&_item {
+    font-size: 19px;
+    font-weight: 700;}
+    &_law {
+        font-size: 18px;
+    
+    }
+}
+.contacts .button_consultation{
+    width: 350px;
+}
+
+.contacts_detail.details {
+    line-height: 1.25;}
+    .contact .contacts_detail {
+        font-size: 24px;}
+        .contact .contacts_info h1 {
+            font-size: 35px;}
+            
+
+}
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+        /* padding-left: 84px; */
+        }
+        
+        /* .can{background: url(../../img/kosmos-md.jpg);} */
+
+  /*   .subheader{
+        .row.logo{
+            padding-left: 40px;
+        }
+    } */
+/* .subheader_call {
+    width: 300px;
+} */
+.subheader_phone {
+    font-size: 20px;}
+.subheader_phinfo {
+    font-size: 18px;}
+.subheader_tel{
+    margin: 5px 0;
+}
+
+    .subheader_logo {
+        width: 150px;}
+ 
+ 
+  /*   .subheader_logo img {
+        margin-left: 34px;
+    } */
+    .subheader_official{
+        &_lg{
+            font-size: 18px;}
+}
+.subheader_addr{
+    display: none;
+}
+
+.subheader_tel {
+    margin-left: 0px;
+}
+.feed-form input {
+    width: 200px;
+    font-size: 22px;
+}
+.button_consultation {
+    font-size: 20px;
+    width: 200px;
+line-height: 1.1;}
+.modal_subtitle {
+    font-size: 22px;}
+    
+    .pulse {
+        width: 60px;
+        height: 60px;
+        img{
+            width: 60px;
+            height: 60px;
+        }
+}
+.consultation_title {
+    font-size: 28px;
+    padding-top: 34px;
+}
+.can_header {
+    height: 40px;}
+    .can_subheader_lg {
+        font-size: 36px;}
+        .can_icon {
+            font-size: 22px;
+            font-weight: 700;}
+            .can_point p {
+                font-size: 28px;}
+
+.recommend_text h1 {
+    font-size: 45px;
+}
+.recommend_text h2 {
+    font-size: 72px;
+}
+
+.button.button_consultation {
+    width: 300px;
+    }
+    .contact_icon {
+        top: 75px;}
+
+        .footer_official {
+            font-size: 18px;}
+            .footer_contacts {
+                font-size: 16px;}
+                .footer_contacts a {
+                    padding-right: 12px;
+                    &:last-child{
+                    padding-left: 12px;
+                    }}
+                    .footer_item {
+                        font-size: 16px;}
+                        /* .footer_law {
+                            font-size: 14px;
+                            padding-right: 10px;
+                        } */
+                        .footer_menu{
+                            padding-right: 10px;
+                        }
+
+                        .us_back {
+                                width: 280px;
+                                height: 350px;}
+                            .us_text {
+                                width: 270px;
+                                    img{
+                                            width: 70px;
+                                        }
+                                    }
+                                    .us_info h1{
+                                    line-height: .87;
+                                font-size: 35px;  } 
+                                .us_info h2 {
+                                    font-size: 28px;} 
+                                /* .us_info h2 {
+                                    font-size: 29px; */
+                                    h2.us_subheader {
+                                        font-size: 16px;
+                                        line-height: 1.18;}
+                                    
+                                    
+                                    .contacts_detail.details {
+                                        line-height: 1.25;}
+                                        .contact .contacts_detail {
+                                            font-size: 24px;}
+                                            .contact .contacts_info h1 {
+                                                font-size: 32px;}
+                                                
+
+                                                .pageup {
+                                                    width: 59px;
+                                                    height: 59px;}
+                                                    .hamburger {
+                                                        width: 48px;}
+                                                        .container {
+                                                            padding-left: 50px;
+                                                        }
+                                                       
+        }
+        @media (max-width: 991px) {
+            .promo_header {
+            width: 400px;
+            font-size: 58px;}
+            /* .can{background: url(../../img/kosmos-sm.jpg);} */
+            .container {
+                max-width: 960px;
+                padding-left: 60px;
+                }
+                .subheader_logo {
+                    width: 120px;
+                }
+                .subheader_tel{
+                    margin: 0;
+                }
+                .row{
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+                nav {
+                    margin-left: -3.5em;
+                }
+                .promo_header{
+                    img{
+                        width: 150%;
+                    }
+                    }
+                    .button_btn {
+                        width: 330px;
+                        height: 75px;}
+                    .subheader_phone {
+                        font-size: 20px;}
+                    .subheader_phinfo {
+                        font-size: 20px;}
+                
+                .promo{
+                .button {
+                    font-size: 28px;}
+                }
+                .feed-form input {
+                    height: 61px;
+            }
+            .button.button_consultation{
+                height: 61px;
+            }
+            .question_icon {
+                left: -80px;
+            }
+            .recommend{
+                &_text{
+                    display: none;
+                    &_mobile{
+                        display: block;
+                        h1{
+                            font-family: Akrobat;
+                            font-size: 68px;
+                            font-weight: 900;
+                            line-height: 1.02;
+                            text-align: center;
+                            color: #4a4444;
+                            text-transform: uppercase;
+                        }
+                        h2{
+                            font-family: Akrobat;
+                            font-size: 61.5px;
+                            font-weight: 900;
+                            line-height: 1.02;
+                            text-align: center;
+                            color: #4a4444;
+                            text-transform: uppercase;
+                            
+                
+                        }
+                    }
+
+                   
+        }
+    }
+    h2.text_first{
+        font-size: 50px;
+    }
+    h2.text_second{
+        font-size: 56px;
+    }
+    h2.text_third{
+        font-size: 58px;
+    }
+    .footer_contacts {
+        width: 320px;
+    }
+    .subheader_official_lg {
+        font-size: 16px;}
+        .subheader_call {
+            width: 200px;}
+            .footer{
+                position: relative;
+            }
+            
+
+       /*  .footer_law{
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+
+            
+        } */
+        .footer_item {
+            font-size: 14px;}
+            .footer .footer_logo{
+                width:140px;
+            }
+            .footer_official{
+                width:250px;}
+            }
+            
+     
+
+            
+
+        @media (max-width: 767px) {
+            .container {
+                max-width: 720px;
+                }
+                .can{width: 100%;
+                    height: 100vh;
+                    bottom: 0;
+                    top: 0;
+                    left: 0;}
+      
+            .promo_header {
+                font-size: 45px;}
+                .subheader_call {
+                    width: 300px;}
+                   /* .can{ background: url(../../img/bg_3_mobile.png) no-repeat center top fixed;
+                    -webkit-background-size: cover;
+                    -moz-background-size: cover;
+                    -o-background-size: cover;
+                     background-size: cover;} */
+                .subheader_logo{
+                    width: 100px;
+                }
+                .subheader_official {
+                    font-size: 16px;}
+                .subheader_tel_sm{
+                    display: block;
+                }
+                .subheader_phone{
+                position: absolute;
+                left: -5px;
+                height: 100%;}
+                .mobile_phone_sm{
+                    position: absolute;
+                                top: 1em;
+                            right: 2em;
+                        width: 54px;}
+
+
+                .promo_subheader{img{
+                    width: 300px;
+                }}
+                .promo .button {
+                    width: 300px;
+                    font-size: 24px;}
+            .subheader_official_lg {
+                font-size: 18px;
+            }
+
+            .feed-form {
+                margin-top: 25px;
+            .input{
+                padding: 0 16px;
+                width: 225px;
+            }}
+            .consultation{
+                min-height: 273px;}
+            .button.button_consultation{
+                    margin-top: 25px;
+                    /*  position: absolute;
+                    bottom: 25px; */
+            }
+            .question{
+                min-height: 400px;
+            }
+            .recommend_text_mobile h1 {
+                font-size: 47px;}
+                h2.text_first {
+                    font-size: 34px;}
+                    h2.text_second {
+                        font-size: 38px;
+                    }
+            
+                h2.text_third {
+                    font-size: 40px;
+                }
+
+           /*  .can{
+                background:url(../../img/bg_3_mobile.png) center center / cover no-repeat;
+               /*  background-position: center center;
+                background-size: cover;
+                background-repeat: no-repeat; */
+            
+               /*  background-attachment:fixed;
+                background-position: left 1px; */
+                /* min-height: 985px; */
+            .can{
+                background-size:contain;
+            }
+           /*  .consultation{
+
+            } */
+
+            .modal {
+                padding: 35px 20px 26px 20px;}
+
+            .question h1 {
+                font-size: 24px;}
+                .question h2 {
+                    font-size: 20px;}
+                    .mobile_phone_sm{
+                        display: block;
+                    }
+                    .subheader_phone_logo{
+                        display:none;
+                    }
+                    
+                    .subheader_official{
+                        display: block;
+                   
+                    &_lg{
+                        display:none;
+
+                    }}
+                    .subheader_phinfo{
+                        display:none;
+
+                    }
+                  
+
+                /* .subheader_official {
+                    font-size: 20px;
+                    font-weight: bold;
+                    line-height: 1;
+                    text-align: left;
+                    color: #20191b;} */
+
+                    .subheader_call {
+                   font-size: 23px;
+                    font-weight: bold;
+                    margin-left: 0px;
+                    }
+/*                     nav {
+                        right: 8em;
+                        top: 4em;
+                    } */
+                   /*  .row.mobile{
+
+                    position: absolute;
+                    top: -40px;
+                    left: 20px;} */
+
+                /*     .subheader .row.logo {
+                        padding-left: 0px;}
+                    } */
+
+                nav {
+                    top: 0.5em;}
+               
+                .us_back{
+                    margin-top: 15px;
+                }
+                .can_point p {
+                    font-size: 22px;
+                }
+               /*  .question_icon {
+                    
+                    left: -80px;} */
+                    .recommend_text h1 {
+                        font-size: 39px;
+                    }
+                    .recommend_text h2 {
+                        font-size: 60px;
+                    }
+                   /*  .recommend {
+                        padding: 36px 0 39px 0;} */
+                        .recommend_text {
+                            margin-left: 20px;}
+
+             
+                .pulse:hover span {
+                        font-size: 10px;
+                }
+                .pulse span {
+                    right: 2px;
+                    top: calc(50% - 12px);
+                    line-height: 14px;
+                }
+                .contacts .button_consultation{
+                    width: 300px;
+                }
+                .contact .contacts {
+                    margin-top: 20px;}
+                   /*  .footer_menu{
+                        display: none;
+                    } */
+
+                    .pageup {
+                        width: 59px;
+                        height: 59px;
+            }
+            .hamburger_active span:nth-child(1) {
+                transform: translateY(12px) rotate(-45deg);}
+                .feed-form {
+                    display: flex;
+                    flex-wrap: wrap;}
+                
+                    .footer_official {
+                        font-size: 14px;
+                        width: 250px;}
+                        .footer .footer_logo {
+                            width: 110px;
+                        }
+                        .footer_item {
+                            display: block;
+                            flex-direction: column;
+                            font-size: 10px;
+                            padding:0 4px;
+                        }
+                        .footer_menu{
+                            display: block;}
+                            .footer_item {
+                                display: block;
+                                padding: 0 10px;
+                                margin-top: 5px;
+                                text-align: end;
+                                border-right: 2px solid white;
+                                &:last-child{
+                                    border-right: 2px solid white;
+                                    padding: 0 10px;}}
+                                    .footer_contacts {
+                                        width: 250px;
+                                        font-size: 12px;
+                                    }
+                                    .footer_law {
+                                        font-size: 12px;
+                                    }
+
+
+                                    .contact_icon {
+                                        display: none;
+                                    }
+                                    .contacts {
+                                        position: relative;
+                                    }
+                                    
+                                    .contact_icon_md, .contact_icon_sm, .contact_icon_sl  {
+                                        display: block;
+                                        width:158px;
+                                        height: 310px; 
+                                        position: absolute;
+        top: -21px;
+        right: 0;
+    }
+    .canall {  background-image: url(../../img/bg_3_mobile.png);
+        top: 20%;
+                           
+
+        /* width: 100%; */
+        /* height: 950px */;
+} 
+                                        
+                                       
+                                        
+                                    
+
+                       /* .footer_law {
+                            position: absolute;
+                            transform: translateX(50%);
+                            top: -5em;} */
+
+                            .mobile_phone_sm {
+                                img{
+                                width: 44px;
+                            height: 44px;}}          
+
+                }
+
+                @media (max-width: 575px) {
+                    .container {
+                        max-width: 540px;
+                        padding-left: 0px;
+                        }
+                        .can{width: 100%;
+                            height: 100vh;
+                            bottom: 0;
+                            top: 0;
+                            left: 0;}
+                            .subheader_phone{position: relative;}
+                            .mobile_phone_sm {
+                                img{
+                                width: 34px;
+                            height: 34px;}}  
+                            
+                        /* can{
+                            img{
+                                display: none;
+                            }
+                        } */
+                        /* .footer_law {
+                           display: none;} */
+                            /* transform: translateX(50%); 
+                            /* top: -5em;}*/
+                      
+                        .subheader_official {
+                            font-size: 12px;
+                            font-weight: 800;
+                            /* padding-left:10px; */
+                            width:300px;
+                            margin-left: 45px;
+                        }
+                        .subheader_phone {
+                            font-size: 16px;
+                        }
+                        .subheader {
+                            margin: 0 ;
+                        }
+                            .can_pointer{
+                                width: 15%;}
+                                .promo {
+                                    min-height: 380px;}
+                                .promo_header {
+                                    width: 250px;
+                                    font-size: 40px;}
+                                .promo_subheader img {
+                                    width: 250px;
+                                }
+                                .promo .button {
+                                    width: 250px;
+                                    font-size: 20px;
+                                    height: 61px;
+                                }
+                                
+                                    .subheader_tel{
+                                        padding-left:50px;
+                                    }
+                                    .subheader_logo {
+                                        width: 80px;
+                                        padding: 7px;
+                                    }
+                                  
+
+                                    .hamburger {
+                                        width: 38px;
+                                    }
+        
+                                    nav {
+                                        right: 0;
+                                        top: 0.5em;}
+
+                                        .hamburger_name {
+                                            font-size: 14px;}
+                                .subheader .row.logo {
+                                    padding-left: 0px;
+                                }
+                                    .menu_active {
+                                        right: 0;
+                                        left: auto;
+                                    }
+                                    .promo {
+                                        padding: 124px 0 0 0;
+                                }
+                                .feed-form{
+                                margin-top: 10px;
+                                /* height: auto; */
+                        }
+
+                            .feed-form input {
+                                margin-bottom: 15px;
+                                width: 170px;
+                                padding: 0 14px;
+                                font-size: 14px;
+                                margin-right: 0;
+                                margin: 10px 10px;
+                             
+                                /* width: 100%; */
+                            }
+                            .button.button_consultation {
+                                width: 370px;
+                            }
+                            
+                                .modal_subtitle {
+                                    font-size: 12px;
+                                    line-height: 1;
+                                }
+                                .modal{
+                                    max-height: 320px;
+                            }
+                            .button_consultation {
+                                height: 50px;
+                                font-size: 18px;
+                            }
+                        /*  .button.button_consultation{
+                                width: 100%;
+                            }
+                        */
+                        .can_header {
+                            font-size: 35px;}
+                            .can_subheader_lg {
+                                font-size: 25px;
+                            }
+                            .can_icon {
+                                font-size: 20px;}
+
+                             /*    h1.mobile_h1,.mobile_h1_second{
+                                    display: block;
+                                    line-height: 1;
+                                    font-family: Akrobat;
+                                    font-size: 32px;
+                                    font-weight: 900;
+                                    text-transform: uppercase;
+                                    color: #0f2f43;
+                                } */
+                                .question h1.main{
+                                    display: none;
+                                }
+
+                                h1.mobile_h1, h1.mobile_h1_second{
+                                    display: block;
+                                    line-height: 1;
+                                    font-family: Akrobat;
+                                    font-size: 28px;
+                                    font-weight: 900;
+                                    text-transform: uppercase;
+                                    color: #0f2f43;
+                                    text-align:end;
+                                }
+                                h1.mobile_h1_second{
+                                    font-size: 13px;
+                                    text-align:end;
+                                }
+                                .question h2.main {
+                                    font-size: 16px;
+                                    text-align:end;
+                                    margin-top: 0px;
+                                }
+
+
+
+                              
+
+
+                            .can_point p {
+                                font-size: 18px;
+                            }
+                            .consultation_title{
+                                    font-size: 21px;
+                                font-weight: 900;
+                                line-height: 1;
+                                }
+
+                        .question_icon{
+                        .feed-form input{
+                            padding: 0 35px;
+                        }
+                        }
+                        .question_icon {
+                            left: -100px;
+                        }
+                        .recommend_text h1 {
+                            font-size: 30px;
+                        }
+                        .recommend_text h2 {
+                            font-size: 47px;
+                        }
+
+
+                            .footer_official p {
+                                margin-bottom: 10px;
+                            }
+                                                        .footer_official {
+                                                            font-size: 14px;
+                                                            padding-left: 25px;
+                                                        }
+                                                       
+                       
+
+                            .footer_contacts{
+                                padding-left: 25px;
+                                font-size: 14px;
+                                a{
+                                padding-right: 6px;
+                                    &:last-child{
+                                    border-right: none;
+                                    padding-left: 6px;
+                                    }}
+                            }
+                           
+                            
+                                .footer_official p {
+                                    margin-bottom: 10px;
+                                }
+
+                                .footer_menu {
+                                    display: none;
+                                }
+                                .footer .footer_logo{
+                                    width:80px;
+                                    height: 80px;
+                                    left: 5px;
+                                }
+                                .recommend_text_mobile h1 {
+                                    font-size: 50px;
+                                }
+                                h2.text_first {
+                                    font-size: 36px;
+                                }
+                                h2.text_second {
+                                    font-size: 40px;
+                                }
+                                h2.text_third {
+                                    font-size: 43px;
+                                }
+                                .footer_law {
+                                    font-size: 10px;
+                                }
+                                .footer {
+                                    position: relative;
+                                   
+                                }
+                                .footer_contacts {
+                                    
+                                    width: 270px;
+                                    padding-left:80px;
+                                    font-size: 9px;
+                                }
+                                .footer_official {
+                                    width: 220px;
+                                    font-size: 10px;
+                                    padding-left:80px;
+                                }
+                                .footer{
+                                    padding: 27px 0 27px 0;
+                                }
+                                .subheader_call {
+                                    width: 200px;
+                                }
+                                .button.button_consultation {
+                                    margin-top: 15px;
+                                }
+                                
+                                /* .contact_icon_md{
+                                    position: absolute;
+                                    top:0;
+                                } */
+
+                            }
+                            @media (max-width: 399px) {
+                                .button.button_consultation {
+                                    width: 100%;
+                                }
+                                .can{width: 100%;
+                                    height: 100vh;
+                                    bottom: 0;
+                                    top: 0;
+                                    left: 0;}
+                                .subheader_official {
+                                    width:200px;
+                                    font-size: 10px;
+                                    /* padding-left: 30px; */}
+                                    .subheader_phone {
+                                        font-size: 14px;
+                                    }
+                                    .mobile_phone_sm img {
+                                        width: 34px;
+                                        height: 34px;
+                                    }
+                                    .modal_subtitle {
+                                        font-size: 10px;}
+                                        .feed-form input {
+                                            width: 120px;
+                                        }
+                                        .question_icon {
+                                            left: -130px;
+                                        }
+                                        .recommend_text_mobile h1 {
+                                            font-size: 37px;
+                                        }
+                                        h2.text_first {
+                                            font-size: 28px;
+                                        }
+                                        h2.text_second {
+                                            font-size: 32px;
+                                        }
+                                        h2.text_third {
+                                            font-size: 43px;
+                                        }
+                                        h2.text_third {
+                                            font-size: 32px;
+                                        }
+                                        .footer_law {
+                                            position: absolute;
+                                            bottom: -2em;
+                                            left: calc(50% - 60px);
+                                        }
+                                        .footer_contacts, .footer_official{
+                                            width: 250px;}
+                                            .feed-form input {
+                                                height: 31px;
+                                            }
+                                            .modal {
+                                                padding: 15px 20px 15px 20px;
+                                            }
+                                            .button_consultation {
+                                                font-size: 14px;
+                                            }
+                                            .button.button_consultation {
+                                                height: 41px;
+                                            }
+                                            .question {
+                                                padding: 113px 0 0 0;
+                                            }
+                                            .modal {
+                                                max-height: 250px;
+                                            }
+                            }
+                            @media (max-width: 320px) {
+                                .subheader_official{
+                                    padding-left: 0;
+                                    font-size: 12px;
+                                }
+                                .mobile_phone_sm {
+                                    right: 1.5em;
+                                }
+                            }
+
+
+
 
 
 

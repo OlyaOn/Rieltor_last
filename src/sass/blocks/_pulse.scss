@@ -1,0 +1,84 @@
+.pulse {
+    
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    cursor:pointer;
+    position: fixed;
+        right: 7%;
+        bottom: 40%;
+        z-index:999;
+   /*  transform: translate(-50%, -50%);
+    text-align: center;
+line-height: 100px;
+color: #fff;
+font-size: 60px; */
+    img{
+        width: 100px;
+        height: 100px;
+    }
+    span {
+        text-align: center;
+        color:#de492b;
+        opacity: 0;
+        font-size: 0;
+        position:absolute;
+        right: 0;
+        top: calc(50% - 20px);
+        line-height: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: opacity .1s linear;
+    }
+    &:hover span {
+        opacity: 1;
+            font-size: 18px;
+    }
+    &:hover img {
+        display:none;
+    }
+    &:hover {
+        z-index:1;
+        background:#fff;
+        color:transparent;
+        transition:.1s;
+}
+
+
+}
+.pulse:before,
+.pulse:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #de492b;
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+     animation: animate 2.0s linear infinite;
+}
+
+.pulse:after{
+	animation-delay: .8s;
+}
+
+@keyframes animate
+{
+	0%
+	{
+		transform: scale(0.8);
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		transform: scale(1.2);
+		opacity: 0;
+	}
+}

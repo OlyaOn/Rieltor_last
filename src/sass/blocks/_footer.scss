@@ -1,0 +1,84 @@
+.footer{
+    position: relative;
+    max-height: 227px;
+    background-color:rgb(74, 68, 68);
+    color:#ffffff;
+    padding: 27px 0 47px 0;
+    &_official{
+        font-size: 22px;
+        font-weight: 200;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        text-align: left;
+        color: #ffffff;
+        p{
+            margin-bottom: 22px;
+        }
+             
+    }
+    &_contacts, &_law{
+        font-size: 22px;
+        font-weight: 300;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: left;
+       
+        a{
+            color: #ffffff;
+            border-right: 2px solid white;
+            padding-right: 26px;
+            &:last-child{
+            border-right: none;
+            padding-left: 26px;
+            }}
+}
+&_law{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+&_menu{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    list-style-type: none;
+        
+}
+&_item{
+    font-family: Akrobat;
+    font-size: 30px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.81;
+    letter-spacing: normal;
+    text-align: left;
+    border-right: 2px solid white;
+    padding: 0 6px 0 6px;
+    &:last-child{
+        border-right: none;
+        padding-right: 0px;
+        }
+    
+    a{
+    color: #ffffff;
+    
+    }
+    
+}
+&_logo{
+    width: 80%;
+}
+.footer_logo{
+    width: 168px;
+    height: 153px;
+    position: absolute;
+    img{
+        vertical-align: middle;
+        width: 100%;
+    }
+}
+}

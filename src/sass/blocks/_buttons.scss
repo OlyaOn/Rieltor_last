@@ -1,16 +1,49 @@
 .button{
-    &_btn{
-    width: 430px;
-    height: 85px;
-    background-color: $main_color;
     font-family: Akrobat;
     font-size: 32px;
     font-weight: 800;
     line-height: 0.81;
     text-align: center;
     color: #ffffff;
-    &:hover{
-        background-color: #0e2b3d;
+    border: none;
+    outline: 0!important;
+        &_btn{
+        width: 430px;
+        height: 85px;
+        background-color: $main_color;
+        color: #ffffff;
+        &:hover{
+            background-color: #092231;
+        }
     }
+        &_consultation{
+            width: 456px;
+            height: 70px;
+            background-color: #de492b;
+            font-weight: 700;
+            &:hover{
+                background-color: #cc3a1d;
+            }
+        }
+
+}
+.question{
+    .button{
+        &_consultation{
+            background-color: $main_color;
+            &:hover{
+                background-color: #092231;
+            }
+
+        }
+
+    }
+}
+.contacts{
+    .button{
+        &_consultation{
+            margin-top: 46px;
+
+        }
 }
 }

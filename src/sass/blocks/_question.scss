@@ -1,0 +1,41 @@
+.question{
+    padding: 113px 0 54px 0;
+    position: relative;
+    min-height: 356px;
+    background: rgba(235, 233, 221, .7);
+    &_icon{
+        background: url('../../img/icons/light.png');
+        width: 328px;
+        height: 384px;
+        position: absolute;
+        top: -21px;
+        left: 67px;;
+    }
+    h1.main{
+        text-transform: uppercase;
+        height: 37px;
+        font-family: Akrobat;
+        font-size: 36.5px;
+        font-weight: 900;
+        line-height: 0.81;
+        text-align: left;
+        color:$main_color;
+    }
+    h2.main{
+        text-transform: uppercase;
+        height: 29px;
+        font-family: Akrobat;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 0.81;
+        text-align: left;
+        color: $main_color;
+        margin-top: 25px;
+    }
+
+}
+h1.mobile_h1{
+    display: none;}
+    h1.mobile_h1_second{
+        display: none;
+    }

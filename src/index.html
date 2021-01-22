@@ -7,46 +7,56 @@
     <title>Your Realtor</title>
     <link rel="shortcut icon" href="img/icons/Group 1.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/style.min.css">
 
     </head>
 <body>
 <header>
-    <div class="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
-        <div class="hamburger_name">МЕНЮ</div>
-        <ul class="menu">
-            <li class="menu_item"><a href="#" class="menu_link">ГЛАВНАЯ</a></li>
-            <li class="menu_item"><a href="#" class="menu_link">О НАС</a></li>
-            <li class="menu_item"><a href="#" class="menu_link">ЧТО МЫ УМЕЕМ?</a></li>
-            <li class="menu_item"><a href="#" class="menu_link">КОНТАКТЫ</a></li>
-        </ul>
-    </div>
-    <div class="subheader">
+   
+    <section id="up" class="subheader">
 
         <div class="container">
-
-           <div class="row">
-                <div class="col-2">
-                    <a href="#" class="subheader_logo"><img src="img/icons/logo.png" alt="logo"></a>
+            <nav>
+                <div class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                <div class="col-10">
-                    <div class="row">
-                <div class="col-4">
+                <div class="nav_menu">
+                    <div class="hamburger_name">МЕНЮ</div>
+                    <ul class="menu">
+                        <li class="menu_item"><img src="../../img/icons/point.png" alt="point"><a href="#up" class="menu_link">ГЛАВНАЯ</a></li>
+                        <li class="menu_item"><img src="../../img/icons/point.png" alt="point"><a href="#us" class="menu_link">О НАС</a></li>
+                        <li class="menu_item"><img src="../../img/icons/point.png" alt="point"><a href="#can" class="menu_link">ЧТО МЫ УМЕЕМ?</a></li>
+                        <li class="menu_item"><img src="../../img/icons/point.png" alt="point"><a href="#contact" class="menu_link">КОНТАКТЫ</a></li>
+                    </ul>
+                </div>
+                </nav>
+
+            <div class="row logo">
+                <div class="col-lg-2 col-md-2 col-sm-2">
+                    <div class="logo">
+                    <a href="#" class="subheader_logo animate__animated animate__fadeInDown"><img src="img/icons/logo.png" alt="logo"></a>
+            </div></div>
+           
+                <div class="col-lg-10 col-md-10 col-sm-10">
+                    <div class="row mobile">
+                <div class="col-lg-4 col-md-5 col-sm-10"> <!--  d-flex justify-content-center -->
                 <div class="subheader_official">Эксклюзивный партнер<br>юридическая компания «Ваше право»</div>
+                <div class="subheader_official_lg">Эксклюзивный партнер<br>юридическая компания<br>«Ваше право»</div>
             </div>
 
-               <div class="offset-2 col-3"> 
+               <div class="col-lg-4 col-md-2 col-sm-2 d-flex justify-content-center"> 
                    <div class="subheader_addr">
                 <a href="#" class="subheader_address_logo"><img src="img/icons/site.png" alt="logo"></a>
                     <div class="subheader_address">Москва, <br>Зеленый п-т, д24 м.Перово</div>
                      </div>
                 </div>
                      
-                <div class="col-3">
+                <div class="col-lg-4 col-md-5 col-sm-10 d-flex justify-content-left">
                     <div class="subheader_tel">
                         <a href="#" class="subheader_phone_logo"><img src="img/icons/phone.png" alt="phone"></a>
                         <div class="subheader_call">
@@ -58,8 +68,14 @@
                     </div>
                 </div>
             </div>
+
         </div> 
-     </div>
+        <div class="mobile_phone_sm">
+            <a href="tel:84993902334" class="mobile_phone_img"><img src="img/icons/phone_mob.png" alt="phone_mob"></a>
+        
+    </div>
+
+     </section>
               
               <!-- <div class="container">
                 <div class="subheader">
@@ -84,10 +100,10 @@
     <section class="promo">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-4 col-md-4 col-sm-4">
                     <h1 class="promo_header">СВОЙ РИЕЛТОР</h1>
-                    <div class="promo_subheader"></div>
-                        <button class="button_btn">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
+                    <div class="promo_subheader">  <img class="inscription" src="img/icons/inscription.png" alt="logo"> </div>
+                        <button data-modal="consultation" class="button button_btn">БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ</button>
                    
                
             </div>
@@ -96,10 +112,10 @@
         </div>
     </section>
 
-    <section class="us">
+    <section class="us" id="us">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="us_back"></div>
                     <div class="us_text">
                     <img class="us_logo" src="img/icons/people.png" alt="logo">
@@ -109,7 +125,7 @@
                     </div>
                 </div>
                 </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="us_back"></div>
                     <div class="us_text">
                     <img class="us_logo" src="img/icons/hand.png" alt="logo">
@@ -120,7 +136,7 @@
                     </div>
                 </div>
             </div>
-                <div class="col-4">
+                <div class="col-lg-4 col-md-12 col-sm-12">
                     <div class="us_back"></div>
                     <div class="us_text">
                     <img class="us_logo" src="img/icons/goblet.png" alt="logo">
@@ -135,26 +151,271 @@
     </section>
     <section class="consultation">
         <div class="container">
+            <div class="class=col-lg-12 col-md-12 col-sm-12">
             <h1 class="consultation_title">консультация по телефону бесплатно, все остальное по разумной цене</h1>
+        </div>
+            <form class="feed-form" action="mail.php" method="POST">
+                <input name="name" require placeholder="Ваше имя" type="text" class="input_text">
+                <input name="phone" require placeholder="Ваш телефон" class="input_text">
+                <button class="button button_consultation string">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+            </form>
+            
+        </div>
+    </section>
+    <section class="can">
+       <!--  <img src="img/bg_b3.jpg" alt="b3" class="ri"> -->
+<!-- <div class="canall"> -->
+        
+        <!-- <div class="img_can"></div>
+        <div class="img_can_mobile"></div> -->
+       <!--  <img src="img/bg_b3.jpg">
+        <img class="smallscreen" src="img/bg_3_mobile.png"> -->
+        <div class="container canwe">
+           <img class="can_pointer" src="img/icons/pointer_.png" alt="pointer">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+          <h1 class="can_header" id="can">Что мы умеем?</h1>
+        </div>
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <h2 class="can_subheader">Учтем все пожелания, дадим рекомендации</h2>
+          <h2 class="can_subheader_lg">Учтем все пожелания,<br>дадим рекомендации</h2>
 
-            <form id="#" class= "feed-form" action="#">
-                <input name="name" placeholder="Ваше имя" type="text" class="input_text">
-                <input name="phone" placeholder="Ваш телефон" class="input_text">
-                <button class="button_consultation">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+        </div>
+    </div>
+          <div class="can_icons">
+            <div class="row">
+
+              <div class="offset-lg-3 col-lg-3 offset-md-3 col-md-3 offset-sm-0 col-sm-12">
+              <div class="can_icon animate__animated animate__fadeInUp wow" data-wow-duration="1.5s">
+                  <img src="img/icons/graph.png" alt="">
+                  КУПИТЬ С БОЛЬШОЙ ВЫГОДОЙ
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-12">
+              <div class="can_icon animate__animated animate__fadeInUp wow" data-wow-duration="1.7s">
+                  <img src="img/icons/purse.png" alt="">
+                  ВЫГОДНО ПРОДАТЬ
+              </div>
+            </div>
+            <div class="offset-lg-3 col-lg-3 offset-md-3 col-md-3 offset-sm-0 col-sm-12">
+                <div class="can_icon animate__animated animate__fadeInUp wow" data-wow-duration="1.8s">
+                  <img src="img/icons/scales.png" alt="">
+                  Полное юридическое<br> 
+сопровождение<br> всех стадий сделки
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-12">
+              <div class="can_icon animate__animated animate__fadeInUp wow" data-wow-duration="1.9s">
+                  <img src="img/icons/hammer.png" alt="">
+                  Юридическая помощь<br>по вопросам с недвижимостью<br>всех уровней сложности
+              </div>
+            </div>
+            <div class="offset-lg-3 col-lg-3 offset-md-3 col-md-3 offset-sm-0 col-sm-12">
+              <div class="can_icon animate__animated animate__fadeInUp wow" data-wow-duration="2.1s">
+                  <img src="img/icons/smile.png" alt="">
+                  ПРОВЕРКА ПРОДАВЦА<br>и объекта<br>НА ВСЕХ УРОВНЯХ
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-3 col-sm-12">
+              <div class="can_icon animate__animated animate__fadeInUp wow" data-wow-duration="2.3s">
+                  <img src="img/icons/dollar.png" alt="">
+                  покупка/продажа<br>с максимальной<br> 
+выгодой для клиента
+              </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="can_point">
+                <div class="point"></div>
+                <p>
+                Оспаривание сомнительных сделок</p>
+                <div class="point"></div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="can_point">
+                <div class="point"></div>
+                <p>Решение сложных вопросов с наследством</p>
+                <div class="point"></div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="can_point">
+                <div class="point"></div>
+                <p>ОСпаривание незаконных решений государственных органОв</p>
+                <div class="point"></div>
+                </div>
+            </div>
+
+
+        </div>
+          </div>
+   <!--  </div> -->
+</div>
+    </section>
+    <section class="question">
+        <div class="question_icon"></div>
+        <div class="container">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+            <h1 class="main">Есть вопросы, непонимание что делать в текущий ситуации, звоните, проконсультируем</h1>
+            <h1 class="mobile_h1">Есть вопросы, непонимание</h1>
+            <h1 class="mobile_h1_second">что делать в текущий ситуации, звоните, проконсультируем</h1>
+            <h2 class="main">Без навязчивых продаж услуг по телефону</h2>
+        </div>
+            <form class="feed-form" action="mail.php" method="POST">
+                <input name="name" require placeholder="Ваше имя" type="text" class="input_text">
+                <input name="phone" require placeholder="Ваш телефон" class="input_text">
+                <button class="button button_consultation">КОНСУЛЬТАЦИЯ</button>
             </form>
         </div>
     </section>
 
+    <section class="recommend">
+        <div class="container">
+            <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-centered">
+                <div class="rec_icon scaleble-bg">
+                </div>
+            </div>
+            <div class="col-lg-9 col-md-9 col-sm-9">
+                <div class="recommend_text">
+                    <h1>наШих клИентов обращаются<br>повторно и/или рекомендуют</h1>
+                    <h2>нас своим друзьям</h2>
+                </div>
+
+                <div class="recommend_text_mobile">
+                    <h1>наШих клИентов</h1>
+                    <h2 class="text_first">обращаются повторно</h2>
+                    <h2 class="text_second">и/или рекомендуют</h2>
+                    <h2 class="text_third">нас своим друзьям</h2>
+                </div>
 
 
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<!-- 
-<script src="js/slick.min.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/jquery.maskedinput.min.js"></script>
-<script src="js/wow.min.js"></script> -->
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact_icon"><!-- <img src="../../img/icons/site_fon.png" alt="time" class="contacts_img"> --></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="contacts" >
+                    <img src="img/icons/time.png" alt="time" class="contacts_img">
+                    <div class="contacts_info">
+                        <h1>График работы</h1>
+                        <div class="contacts_detail">
+                            <span>ПН-ПТ: </span>с 10:00 до 18:00</div>
+                        <div class="contacts_detail">
+                            <span>СБ: </span>с 10:00 до 15:00</div>
+                            <button class="button button_consultation">Воскресенье выходной</button>
+                        </div>
+                        <div class="contact_icon_md"><!-- <img src="../../img/icons/site_fon.png" alt="time" class="contacts_img"> --></div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="contacts">
+                    <img src="img/icons/sms.png" alt="sms" class="contacts_img">
+                    <div class="contacts_info">
+                        <h1>Телефоны / E-mail</h1>
+                        <div class="contacts_detail">+8 (499) 390 23 34</div>
+                        <div class="contacts_detail">+8 (926) 653 77 59</div>
+                        <button data-modal="consultation" class="button button_consultation">vashepravo2002@yandex.ru</button>
+                    </div>
+                    <div class="contact_icon_sm"><!-- <img src="../../img/icons/site_fon.png" alt="time" class="contacts_img"> --></div>
+
+                </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <div class="contacts">
+                    <img src="img/icons/site_b3.png" alt="site" class="contacts_img">
+                    <div class="contacts_info">
+                        <h1>Офис в Москве</h1>
+                       <address class="contacts_detail details">Зеленый проспект,<br>дом 24, м. Перово</address>
+                        <button class="button button_consultation">Проложить маршрут</button>
+
+                    </div>
+                    <div class="contact_icon_sl"><!-- <img src="../../img/icons/site_fon.png" alt="time" class="contacts_img"> --></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-2 d-flex justify-content-center text-center">
+                    <div class="footer_logo"><a href="#">
+                        <img src="img/icons/logo_footer.png" alt="logo">
+                    </a></div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="footer_official">
+                        <p>Эксклюзивный партнер<br>юридическая компания «Ваше право»</p>
+                        <p>Телефоны:</p>
+                    </div>
+
+                    <div class="footer_contacts">
+                        <a href="tel:+84993902334" class="header_phone">8 (499) 390 23 34</a>
+                        <a href="tel:+84993902334" class="header_phone">8 (499) 390 23 34</a>
+
+                    </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6">
+                        <ul class="footer_menu" id="footer_menu">
+                            <li class="footer_item"><a href="#us" class="footer_link">О НАС</a></li>
+                            <li class="footer_item"><a href="#contact" class="footer_link">КОНТАКТЫ</a></li>
+                            <li class="footer_item"><a href="#can" class="footer_link">ЧТО МЫ УМЕЕМ</a></li>
+                        </ul>
+
+                        <div class="footer_law">
+                            2020 Все права защищены
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <a href="#up">
+        <img src="img/icons/pointer.png" alt="up" class="pageup">
+    </a>
+
+    <div data-modal="consultation" class="pulse"><img src="img/icons/tephone.svg" alt="">
+        <span>Заказать<br>звонок</span></div>
+
+        <div class="overlay">
+            <div class="modal" id="consultation">
+                <div class="modal_close">&times;</div>
+                <div class="modal_subtitle">ОСТАВЬТЕ ВАШ ТЕЛЕФОН И НАШ КОНСУЛЬТАНТ СВЯЖЕТЬСЯ С ВАМИ</div>
+                <form class="feed-form" action="mail.php" method="POST">
+                    <input name="name" require placeholder="Ваше имя" type="text" class="input_text"> 
+                    <input name="phone" require placeholder="Ваш телефон" class="input_text">
+                     <button type="submit" class="button button_consultation">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+                    </form>
+                </div>
+                    <div class="modal modal_mini" id="thanks">
+                        <div class="modal_close">&times;</div>
+                        <div class="modal_subtitle">Спасибо за вашу заявку!</div>
+                        <div class="modal_descr">Наш консультант свяжется с вами в ближайшее время!</div>
+                    </div>
+
+  
+
+</div>
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
+<script src="js/slick.min.js">
+</script><script src="js/jquery.validate.min.js">
+</script><script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/script.js"></script>
+
 </body>
 </html>
-

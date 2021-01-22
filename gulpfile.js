@@ -56,9 +56,9 @@ gulp.task('icons', function (){
 });
 
 
-gulp.task('mailer', function (){
-    return gulp.src("src/mailer/**/*")
-    .pipe(gulp.dest("dist/mailer"));
+gulp.task('phpmailer', function (){
+    return gulp.src("src/phpmailer/**/*")
+    .pipe(gulp.dest("dist/phpmailer"));
 });
 
 
@@ -68,5 +68,12 @@ gulp.task('images', function (){
     .pipe(gulp.dest("dist/img"));
 });
 
+gulp.task('php', function (){
+    return gulp.src("src/*.php")
+    .pipe(imagemin())
+    .pipe(gulp.dest("dist/"));
+});
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'mailer', 'images', 'html' ));
+
+
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'scripts', 'fonts', 'icons', 'phpmailer', 'images', 'php', 'html' ));
